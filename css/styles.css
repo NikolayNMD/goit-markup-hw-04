@@ -232,6 +232,16 @@ img {
   border: 0;
 }
 
+.adv-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 112px;
+  border-radius: 4px;
+  background-color: var(--cloud-color);
+  margin-bottom: 8px;
+}
+
 .prof-title {
   font-size: 20px;
   font-weight: 500;
@@ -309,6 +319,34 @@ img {
 
 .our-team-text {
   text-align: center;
+  margin-bottom: 8px;
+}
+
+.team-sm-list {
+  display: flex;
+  gap: 24px;
+}
+
+.team-sm-list .link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--iris-color);
+}
+
+.team-sm-list .link:hover {
+  background-color: var(--ocean-color);
+}
+
+.team-sm-list .icon {
+  fill: var(--cloud-color);
+}
+
+.team-sm-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .section-portfolio {
