@@ -14,6 +14,8 @@ body {
   --iris-color: #4d5ae5;
   --ocean-color: #404bbf;
   --corn-color: #e7e9fc;
+  --light-slate-color: #8e8f99;
+  --green-color: #31d0aa;
 }
 
 p,
@@ -152,6 +154,44 @@ img {
   width: 264px;
   flex-direction: column;
   flex-shrink: 0;
+}
+
+.father-footer-container {
+  display: flex;
+}
+
+.footer-info-container {
+  margin-right: 120px;
+}
+
+.footer-sm-container .change {
+  font-weight: 500;
+  color: var(--white-color);
+  margin-bottom: 16px;
+}
+
+.footer-sm-list {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-sm-list .link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--iris-color);
+}
+
+.footer-sm-list .icon {
+  fill: var(--cloud-color);
+}
+
+.footer-sm-list .link:hover,
+.footer-sm-list .link:focus {
+  background-color: var(--green-color);
 }
 
 .main-section {
@@ -337,7 +377,8 @@ img {
   background-color: var(--iris-color);
 }
 
-.team-sm-list .link:hover {
+.team-sm-list .link:hover,
+.team-sm-list .link:focus {
   background-color: var(--ocean-color);
 }
 
@@ -347,6 +388,55 @@ img {
 
 .team-sm-item {
   width: calc((100% - 72px) / 4);
+}
+
+.section-customers {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.section-customers .title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navy-color);
+  text-align: center;
+  margin-bottom: 72px;
+}
+
+.customers-list {
+  display: flex;
+  gap: 24px;
+}
+
+.customers-item {
+  width: calc((100% - 120px) / 6);
+}
+
+.customers-list .link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 168px;
+  height: 88px;
+  border-radius: 4px;
+  border: 1px solid var(--light-slate-color);
+}
+
+.customers-list .link:hover,
+.customers-list .link:focus {
+  border: 1px solid var(--ocean-color);
+}
+
+.customers-list .icon {
+  fill: var(--light-slate-color);
+}
+
+.customers-list .icon:hover,
+.customers-list .icon:focus {
+  fill: var(--ocean-color);
 }
 
 .section-portfolio {
