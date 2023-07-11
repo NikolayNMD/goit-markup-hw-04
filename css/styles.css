@@ -212,6 +212,22 @@ img {
   background-color: var(--green-color);
 }
 
+.backdrop.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  visibility: visible;
+}
+
 .main-section {
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
