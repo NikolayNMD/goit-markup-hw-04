@@ -53,6 +53,9 @@ img {
 
 .top-line {
   border-bottom: 1px solid var(--corn-color);
+  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
 .navigation {
@@ -107,6 +110,10 @@ img {
   color: var(--ocean-color);
 }
 
+.page-nav .link.current {
+  color: var(--ocean-color);
+}
+
 .current {
   position: relative;
 }
@@ -117,7 +124,7 @@ img {
   height: 4px;
   border-radius: 2px;
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   background-color: var(--ocean-color);
   left: 0;
 }
@@ -241,6 +248,7 @@ img {
   background-color: var(--navy-color);
   padding-top: 188px;
   padding-bottom: 188px;
+  max-width: 1440px;
 }
 
 .main-title {
