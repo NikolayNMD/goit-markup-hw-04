@@ -248,7 +248,7 @@ img {
   background-color: var(--navy-color);
   padding-top: 188px;
   padding-bottom: 188px;
-  max-width: 1440px;
+  max-width: 100%;
 }
 
 .main-title {
