@@ -281,7 +281,7 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.close-icon:is(:hover, :focus) {
+.modal .close-icon:is(:hover, :focus) {
   fill: var(--white-color);
 }
 
