@@ -275,14 +275,11 @@ img {
 .close-button:is(:hover, :focus) {
   background-color: var(--ocean-color);
   border: none;
+  fill: var(--white-color);
 }
 
 .close-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal .close-icon:is(:hover, :focus) {
-  fill: var(--white-color);
 }
 
 .main-section {
